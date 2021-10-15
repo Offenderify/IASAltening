@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "iasaltening",
+  "version": "0.1",
+  "name": "IAS-Altening",
+  "description": "'TheAltening' support for 'In-Game Account Switcher' Mod.",
+  "authors": [
+    "Offenderify"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Offenderify/IASAltening",
+    "sources": "https://github.com/Offenderify/IASAltening",
+    "issues": "https://github.com/Offenderify/IASAltening/issues"
+  },
+  "license": "All rights reserved",
+  "icon": "iasaltening.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.offenderify.iasaltening.IASAlteningMod"
+    ]
+  },
+  "mixins": [
+    "mixins.iasaltening.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.7",
+    "fabric": "*",
+    "ias": "7.1.2",
+    "minecraft": "1.16.x"
+  }
+}

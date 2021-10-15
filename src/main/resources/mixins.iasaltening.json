@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.offenderify.iasaltening.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinGuiAccountSelector",
+    "MixinGuiAddAccount",
+    "MixinClientLoginNetworkHandler"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
